@@ -1,0 +1,24 @@
+.carousel-item {
+    min-height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color:rgba(0, 0, 0,0.2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.carousel-caption {
+    color: #302D2A;
+    margin-bottom:20vh;
+}
+

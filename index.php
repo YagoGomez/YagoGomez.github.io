@@ -18,6 +18,7 @@ and open the template in the editor.
         <link href="./vendor/css/mdb.css" rel="stylesheet">
         <!-- CUSTOM -->
         <link href="styles/css/main.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
         <div class="contenedor">
             <!--Navbar-->
 

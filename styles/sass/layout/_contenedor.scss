@@ -1,0 +1,25 @@
+#contenedor{
+    min-width: 99vw;
+    min-height: 99vh;
+    max-height: 100vh;
+    min-width: 100vw;
+    background-color: #212121;
+}
+.card{
+    width: 33vw;
+    height: 33vh;
+    
+}
+
+#fotos-galeria{
+    display:flex;
+    flex-flow: row wrap;
+    
+   
+}
+.imagen-galeria{
+  object-fit: cover !important;
+   width: 100%;
+   height: 100%;
+   
+}

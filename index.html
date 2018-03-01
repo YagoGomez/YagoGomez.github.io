@@ -8,8 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
-    </head>
-    <body>
+        <link rel="shortcut icon" type="image/png"  href="resources/images/favicon.png"/>
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Bootstrap core CSS -->
@@ -18,14 +17,18 @@ and open the template in the editor.
         <link href="./vendor/css/mdb.css" rel="stylesheet">
         <!-- CUSTOM -->
         <link href="styles/css/main.css" rel="stylesheet" type="text/css"/>
-        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-        <div class="contenedor">
+    
+    </head>
+    <body>
+        
+        
+       
             <!--Navbar-->
-
+           
             <nav class="cabecero navbar navbar-expand-lg navbar-dark elegant-color-dark">
 
                 <!-- Navbar brand -->
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <span class="marca">Yago Gómez</span><b class="marca-slogan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peluqueros</b></a>
 
                 <!-- Collapse button -->
@@ -39,16 +42,16 @@ and open the template in the editor.
 
                     <!-- Links -->
                     <ul class="navbar__nav ml-auto">
-                        <li class="nav__item active">
-                            <a class="nav__link" href="#">Inicio     
+                        <li id="btn-inicio" class="nav__item active">
+                            <a  class="nav__link" href="index.html">Inicio </a>    
                         </li>
-                        <li class="nav__item">
-                            <a class="nav__link" href="#"> Contacto</a> 
+                        <li id="btn-contacto" class="nav__item">
+                            <a class="nav__link" href="contacto.php"> Contacto</a> 
                         </li>
-                        <li class="nav__item">
+                        <li id="btn-servicios" class="nav__item">
                             <a class="nav__link" href="#">Servicios</a>
                         </li>
-                        <li class="nav__item">
+                        <li id="btn-galeria" class="nav__item">
                             <a class="nav__link" href="#">Galeria</a>
                         </li>
                         <li class="nav__item">
@@ -62,7 +65,7 @@ and open the template in the editor.
 
             </nav>
             <!--/.Navbar-->
-
+             <div id="contenedor">
 
             <div class="carrusel">
                 <!--Carousel Wrapper-->
@@ -100,6 +103,7 @@ and open the template in the editor.
                 </div>
                 <!--/.Carousel Wrapper-->
             </div>
+            </div>
             <!--Footer-->
             <footer class="footer page-footer font-small elegant-color-dark pt-0">
 
@@ -135,16 +139,16 @@ and open the template in the editor.
                 <!--/Footer Links-->
 
                 <!--Copyright-->
-                <div class="footer-copyright py-3 text-center">
+                <div class="footer-copyright py-3 text-center white-text">
                     <div class="container-fluid">
-                        © 2018 Copyright:  Yago Gómez</a>
+                        © 2018 Copyright:  Yago Gómez
                     </div>
                 </div>
                 <!--/Copyright-->
 
             </footer>
             <!--/Footer-->   
-        </div>
+        
 
 
 
@@ -157,5 +161,7 @@ and open the template in the editor.
         <script type="text/javascript" src="./vendor/js/bootstrap.min.js"></script>
         <!-- MDB core JavaScript -->
         <script type="text/javascript" src="./vendor/js/mdb.min.js"></script>
+        <!-- Custom -->
+        <script src="js/galeria.js" type="text/javascript"></script>
     </body>
 </html>

@@ -1,13 +1,7 @@
 $(document).ready(function () {
     $("#btn-galeria").on("click", function () {
         var fotos = "<div id='fotos-galeria'>";
-//        $.ajax({
-//
-//            url: "php/imagenesGaleria.php",
-//            dataType: "json",
-//            success: function (images) {
-//
-//                for (var i = 2; i < images.length; i++) {
+
 
         fotos += '   <div id="' + '20170717_155914.jpg' + '" class="card">  ' +
                 ' <img src="./resources/images/galeria/' + '20170717_155914.jpg' + '" class="imagen-galeria" alt="">  ' +

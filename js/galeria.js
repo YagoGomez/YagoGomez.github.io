@@ -6,14 +6,14 @@ $(document).ready(function () {
         fotos += '   <div id="' + '0004.jpg' + '" class="card">  ' +
                 ' <img src="./resources/images/galeria/' + '0004.jpg' + '" class="imagen-galeria" alt="">  ' +
                 '  </div>';
-        fotos += '   <div id="' + '20180225_184137.jpg' + '" class="card">  ' +
-                ' <img src="./resources/images/galeria/' + '20180225_184137.jpg' + '" class="imagen-galeria" alt="">  ' +
+        fotos += '   <div id="' + '0005.jpg' + '" class="card">  ' +
+                ' <img src="./resources/images/galeria/' + '0005.jpg' + '" class="imagen-galeria" alt="">  ' +
                 '  </div>';
-        fotos += '   <div id="' + '20180225_184229.jpg' + '" class="card">  ' +
-                ' <img src="./resources/images/galeria/' + '20180225_184229.jpg' + '" class="imagen-galeria" alt="">  ' +
+        fotos += '   <div id="' + '0006.jpg' + '" class="card">  ' +
+                ' <img src="./resources/images/galeria/' + '0006.jpg' + '" class="imagen-galeria" alt="">  ' +
                 '  </div>';
-        fotos += '   <div id="' + '20180225_184614.jpg' + '" class="card">  ' +
-                ' <img src="./resources/images/galeria/' + '20180225_184614.jpg' + '" class="imagen-galeria" alt="">  ' +
+        fotos += '   <div id="' + '0007.jpg' + '" class="card">  ' +
+                ' <img src="./resources/images/galeria/' + '0007.jpg' + '" class="imagen-galeria" alt="">  ' +
                 '  </div>';
         fotos += '   <div id="' + '0001.jpg' + '" class="card">  ' +
                 ' <img src="./resources/images/galeria/' + '0001.jpg' + '" class="imagen-galeria" alt="">  ' +

@@ -32,10 +32,12 @@
 @media (max-width :991px){
 
     .nav__item{
+        margin-right: 0px;
         margin-left: auto;
         margin-right: auto;
         min-height: 5vh;
         font-size: 4vh;
+        
     }
     .navbar__nav{
         flex-direction: column;

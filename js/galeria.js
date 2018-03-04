@@ -39,7 +39,7 @@ $(document).ready(function () {
         $("#contenedor").html("");
         $("#contenedor").append(fotos);
         $("#fotos-galeria").on("click", ".card", function () {
-            alert($(this).attr("id"));
+            alert($(this).attr("id" ));
 
         });
 

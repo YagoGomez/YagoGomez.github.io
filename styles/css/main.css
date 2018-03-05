@@ -128,3 +128,32 @@
   object-fit: cover !important;
   width: 100%;
   height: 100%; }
+
+.fullscreen-modal .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 90vw;
+  min-height: 90vh;
+  max-height: 95vh;
+  max-width: 95vw; }
+
+.imagen-modal {
+  height: 100%;
+  width: 100%;
+  object-fit: contain !important; }
+
+.img-modal {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  .fullscreen-modal .modal-dialog {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .fullscreen-modal .modal-dialog {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .fullscreen-modal .modal-dialog {
+    width: 1170px; } }
